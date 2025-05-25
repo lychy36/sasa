@@ -1,0 +1,97 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+div{
+    border: 1px solid black;
+}
+
+.header {
+    height: 200px;
+    background-color: rgb(32, 169, 214);
+}
+.header_gore, .header_dole{
+    height: 50%;
+}
+
+.header_gore{
+    display: flex;
+    justify-content: space-between;
+}
+
+.login{
+    width: 40%;
+    line-height: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.naslov{
+    width: 20%;
+    line-height: 100px;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 550px;
+}
+
+
+.login a{
+    color: white;
+    font-size: 2em;
+    text-decoration: none;
+}
+
+.login a:hover{
+    color: lightgreen;
+}
+
+.logo img{
+    height: 100%;
+    width: 100%;
+}
+
+
+.header_dole ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style-type: none;
+    height: 100%;
+    
+}
+
+.header_dole ul li{
+    width: 20%;
+    text-align: center;
+}
+
+.header_dole ul li a{
+    font-size: 1.9em;
+    text-decoration: none;
+    color: white;
+}
+
+.header_dole ul li a:hover{
+    color: lightgreen;
+}
+
+.info_box{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px; 
+    padding: 1rem;
+    margin-bottom: 3em;
+}
+
+.companies{
+    padding: 1em;
+    background-color: white;
+    width: 60%;
+}
+
