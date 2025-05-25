@@ -90,8 +90,12 @@ div{
 }
 
 .companies{
+    margin: 1em;
     padding: 1em;
     background-color: white;
     width: 60%;
 }
-
+.company-box
+{
+    margin: 1em;
+}
